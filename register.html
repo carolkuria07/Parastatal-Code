@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        header{
+            background-color: #2e2a39;
+            background-size: contain;
+            height: 30vh;
+            color: #fffafe;
+            font-size: xxx-large;
+        }
+        h1{
+            margin-bottom: 30px;
+            margin-left: 15px;
+            text-align: left;
+            position: absolute;
+        }
+        button{
+            width: 130px;
+            height: 50px;
+            border-radius: 20px;
+            color: #2ba7ff;
+            background-color: #0e223d;
+            margin-left: 15px;
+        }
+        button:hover{
+            background-color: #78788c;
+            color: #bb3d4a;
+        }
+        .part{
+            display: flex;
+        }
+        .part1{
+            margin-left: 15px;
+            width: 40%;
+        }
+        .part2{
+            width: 40%;
+            margin-left: 200px;
+        }
+        label{
+             font-size: xx-large;
+        }
+        body{
+            background-color: #88b4c6;
+        }
+        h2{
+            font-size: xx-large;
+            text-align: left;
+            font-weight: bold;
+            text-decoration: underline;
+            color: #2f3353;
+        }
+        input{
+            width: 200px;
+            height: 5vh;
+            border-style: wave;
+            border-radius: 10px;
+        }
+        .mybtnreg{
+            color: #631b57;
+            background-color: #40507d;
+        }
+        .mybtnlog{
+            color: #8a5b65;
+            background-color: #630c32;
+        }
+        .myform1{
+            margin-left: 60px;
+            width: 40%;
+        }
+        .myform2{
+            margin-left: 60px;
+            width: 40%;
+        }
+        .ttl1{
+            margin-left: 65px;
+            font-size: xx-large;
+        }
+        .ttl2{
+            margin-left: 65px;
+            font-size: xx-large;
+        }
+
+        </style>
+
+</head>
+<body>
+<header>
+    <h1>Registration</h1>
+    </header>
+    <hr>
+    <a href="index.html"><button>Home</button></a>
+    <a href="about.html"><button>About</button></a>
+    <a href="tenders%20and%20vacancies.html"><button>Tenders and Vacancies</button></a>
+    <a href="services.html"><button>services</button></a>
+    <a href="blog.html"><button>Blog</button></a>
+    <a href="register.html"><button>Register</button></a>
+    <hr>
+
+
+<div class="part">
+    <div class="part1">
+        <h2 class="ttl1">REGISTER</h2>
+
+    <form class="myform1" action="">
+            <label>Name</label><br>
+            <label><input class="myinput1" placeholder="enter name" type="text"></label><br>
+            <label>Phone Number</label><br>
+            <label><input class="myinput1" placeholder="enter phone number" type="number"></label><br>
+            <label>ID Number</label><br>
+            <label><input class="myinput1" placeholder="enter Id number" type="number"></label><br>
+            <label>Date of Birth</label><br>
+            <label><input type="date"></label><br>
+        <br>
+        <button class="mybtnreg">SUBMIT</button>
+    </form>
+    </div>
+    <div class="part2">
+        <form class="myform2" action="">
+            <h2 class="ttl2">LOGIN</h2>
+            <label>Email Address</label><br>
+            <label><input class="myinput2" placeholder="email address" type="email"></label><br>
+            <label>Password</label><br>
+            <label><input class="myinput2" placeholder="enter password" type="password"></label><br>
+            <br>
+        <button class="mybtnlog">SUBMIT</button>
+        </form>
+    </div>
+</div>
+
+</body>
+</html>

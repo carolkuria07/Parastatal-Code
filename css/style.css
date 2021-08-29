@@ -1,0 +1,147 @@
+button{
+    width: 130px;
+    height: 50px;
+    border-radius: 20px;
+    color: #9fb3c1;
+    background-color: #382530;
+    margin-left: 15px;
+    border-style: wave;
+}
+button:hover{
+    background-color: #634762;
+    color: #e8848c;
+}
+.head{
+    display: flex;
+    background-size: cover;
+    background-color: rgba(157, 149, 160, 0.3);
+}
+.head1{
+    width: 20%;
+    margin-left: 30px;
+}
+.head2{
+    width:50%;
+    text-align: center;
+    margin-left: 200px;
+    font-size: x-large;
+    margin-top: 90px;
+    font-family: "Bookman Old Style",serif;
+    text-decoration-line: underline;
+}
+header{
+    font-weight: bold;
+    background-color: #78788c;
+    height: 20vh;
+}
+h2{
+    font-size: xxx-large;
+    position: absolute;
+    margin-left: 20px;
+    color: #fbfdff;
+}
+h3{
+    font-size: xxx-large;
+    font-family: monospace;
+    text-decoration-line: underline;
+    text-align: center;
+}
+.section{
+    display: flex;
+}
+.section1{
+    width: 40%;
+    margin-left: 60px;
+}
+.section2{
+    width: 60%;
+    font-size: large;
+    text-align: left;
+}
+.part{
+    display: flex;
+    background-color: rgba(178, 164, 184, 0.3);
+}
+.part1{
+    width: 30%;
+    float: left;
+    contain: content;
+    margin-left: 20px;
+}
+.part2{
+    width: 30%;
+    float: left;
+    margin-left: 30px;
+}
+.part3{
+    width: 30%;
+    float: left;
+    margin-left: 50px;
+}
+h4{
+    font-size: x-large;
+    font-weight: bold;
+    text-align: center;
+}
+p{
+    font-size: larger;
+}
+
+/*
+About
+ */
+button{
+    width: 100px;
+    height: 50px;
+    border-radius: 20px;
+    color: #2ba7ff;
+    background-color: #8c1257;
+    margin-left: 15px;
+}
+button:hover{
+    background-color: #78788c;
+    color: #8c434a;
+}
+.list{
+    display: flex;
+    font-size: large;
+    background-color: #4494d0;
+}
+.list1{
+    width: 30%;
+    float: left;
+    margin-left: 50px;
+}
+.list2{
+    width: 30%;
+    float: left;
+    margin-left: 50px;
+}
+.list3{
+    width: 30%;
+    float: left;
+    margin-left: 50px;
+}
+header{
+    background-color: #2e2a39;
+    background-size: contain;
+    height: 30vh;
+    color: #fffafe;
+    font-size: xxx-large;
+}
+h1{
+    margin-bottom: 30px;
+    margin-left: 15px;
+    text-align: left;
+    position: absolute;
+}
+
+h4{
+    text-align: center;
+}
+p{
+    font-size: large;
+}
+img{
+    justify-content: center;
+}
